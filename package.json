@@ -1,1 +1,14 @@
-{ "dependencies": { "@hey-api/client-fetch": "^0.2.4" } }
+{
+    "dependencies": {
+        "@hey-api/client-fetch": "^0.2.4"
+    },
+    "name": "docuseal-openapi",
+    "module": "index.ts",
+    "type": "module",
+    "devDependencies": {
+        "@types/bun": "latest"
+    },
+    "peerDependencies": {
+        "typescript": "^5.0.0"
+    }
+}
