@@ -10,5 +10,21 @@
     },
     "peerDependencies": {
         "typescript": "^5.0.0"
-    }
+    },
+    "version": "1.0.0",
+    "description": "API client / fetch wrapper for Docuseal, generated using `@hey-api/typescript` and `@hey-api/fetch`.",
+    "main": "index.ts",
+    "scripts": {
+        "build": "bun x @hey-api/openapi-ts -i https://console.docuseal.com/openapi.yml -o ./src/generated  -c @hey-api/client-fetch"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Nmans01/docuseal-openapi.git"
+    },
+    "author": "nmans01",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/Nmans01/docuseal-openapi/issues"
+    },
+    "homepage": "https://github.com/Nmans01/docuseal-openapi#readme"
 }
